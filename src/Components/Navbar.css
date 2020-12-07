@@ -1,4 +1,4 @@
-/*.navbar {
+.navbar {
   background: linear-gradient(to right, rgb(122, 0, 92) 0%, rgb(32, 0, 24) 100%);
   height: 100px;
   display: block;
@@ -154,8 +154,8 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
   }
-}*/
-
+}
+/*
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
@@ -314,3 +314,4 @@
     transition: 250ms;
   }
 }
+*/

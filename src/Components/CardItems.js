@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 
 function CardItems(props) {
@@ -21,8 +21,8 @@ function CardItems(props) {
     )
 }
 
-export default CardItems*/
-
+export default CardItems
+/*
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -47,4 +47,4 @@ function CardItem(props) {
   );
 }
 
-export default CardItem;
+export default CardItem;*/
