@@ -8,12 +8,13 @@ video{
 
 .seccao-container{
     /*background: url("images/img-um.jpg") center center/cover no-repeat;*/
+    padding-top: 100px;
     height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
+    /*box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);*/
+    box-shadow: inset 0px 0px 500px rgba(0,0,0,100);
     object-fit: contain;
     justify-content: center;
 }

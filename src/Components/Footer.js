@@ -24,25 +24,55 @@ function Footer() {
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Sobre "nós"</h2>
+                        <h2>Primeiro</h2>
                         <Link to="/products">Um</Link>
                         <Link to="/services">Dois</Link>
                         <Link to="/signup">Três</Link>
                     </div>
                     <div className="footer-link-items">
-                        <h2>Sobre "nosotros"</h2>
+                        <h2>Segundo"</h2>
                         <Link to="/products">Uno</Link>
                         <Link to="/services">Dos</Link>
                         <Link to="/signup">Tres</Link>
                     </div>
+                </div>
+                <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Sobre "nous"</h2>
+                        <h2>Terceiro</h2>
                         <Link to="/products">Un</Link>
                         <Link to="/services">Deux</Link>
                         <Link to="/signup">Troix</Link>
                     </div>
+                    <div className="footer-link-items">
+                        <h2>Quarto</h2>
+                        <Link to="/products">One</Link>
+                        <Link to="/services">Two</Link>
+                        <Link to="/signup">Three</Link>
+                    </div>
                 </div>
             </div>
+
+            <section className="social-media">
+                <div className="social-media-wrap">
+                    <div className="footer-logo">
+                        <Link to="/" class="social-logo">
+                            Tiago<i className="fab fa-typo3"/>
+                        </Link>
+                    </div>
+                    <small className="website-icons">TIAGO @ 2020</small>
+                    <div className="social-icons">
+                        <Link to="/" className="social-icon-link instagram">
+                            <i className="fab fa-instagram"></i>
+                        </Link>
+                        <Link to="/" className="social-icon-link twitter">
+                            <i className="fab fa-twitter"></i>
+                        </Link>
+                        <Link to="/" className="social-icon-link facebook">
+                            <i className="fab fa-facebook-f"></i>
+                        </Link>
+                    </div>
+                </div>
+            </section>
 
         </div>
     )
