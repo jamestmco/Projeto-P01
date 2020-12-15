@@ -15,7 +15,7 @@ function Footer() {
                 </p>
                 <div className="input-areas">
                     <form>
-                        <input type="email" name="email" placeholder="mail bonito" className="footer-input"></input>
+                        <input type="email" name="email" placeholder="inserir email" className="footer-input"></input>
                         <Button buttonStyle="btn--outline">Subcrever</Button>
                     </form>
                 </div>
@@ -30,7 +30,7 @@ function Footer() {
                         <Link to="/signup">Três</Link>
                     </div>
                     <div className="footer-link-items">
-                        <h2>Segundo"</h2>
+                        <h2>Segundo</h2>
                         <Link to="/products">Uno</Link>
                         <Link to="/services">Dos</Link>
                         <Link to="/signup">Tres</Link>
@@ -61,14 +61,14 @@ function Footer() {
                     </div>
                     <small className="website-icons">TIAGO @ 2020</small>
                     <div className="social-icons">
-                        <Link to="/" className="social-icon-link instagram">
-                            <i className="fab fa-instagram"></i>
+                        <Link to="/" className="social-icon-link linkedin">
+                            <i className="fab fa-linkedin"></i>
                         </Link>
-                        <Link to="/" className="social-icon-link twitter">
-                            <i className="fab fa-twitter"></i>
+                        <Link to="/" className="social-icon-link github">
+                            <i className="fab fa-github"></i>
                         </Link>
-                        <Link to="/" className="social-icon-link facebook">
-                            <i className="fab fa-facebook-f"></i>
+                        <Link to="/" className="social-icon-link envelope">
+                            <i className="far fa-envelope"></i>
                         </Link>
                     </div>
                 </div>

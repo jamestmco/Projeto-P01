@@ -30,8 +30,8 @@ function Navbar() {
         <div className='navbar-container'>
           <div className="nav-logo">
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TIAGO
-            <i class='fab fa-typo3' />
+            OST Central
+            <i class='fas fa-record-vinyl' />
           </Link>
           </div>
           <div className='menu-icon' onClick={handleClick}>

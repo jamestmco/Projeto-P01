@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(to right, rgb(122, 0, 92) 0%, rgb(32, 0, 24) 100%);
+  background: linear-gradient(to right, #7a005c, #200018);
   height: 100px;
   display: block;
   font-size: 20px;
@@ -25,9 +25,10 @@
 
 .nav-logo{
   margin-left: 20px;
+  display: inline-flex;
 }
 
-.fa-typo3 {
+.fa-record-vinyl {
   margin-left: 10px;
 }
 
@@ -41,7 +42,7 @@
   text-decoration: none;
   text-align: center;
   margin-right: 10px;
-  width: 75vw;
+  width: 65vw;
   justify-content: right;
 }
 
