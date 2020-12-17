@@ -1,12 +1,11 @@
 import React from 'react'
 import {Button} from "./Button"
-import "./SeccaoUm.css"
+import "./Inicio.css"
 import "../App.css"
 
-function SeccaoUm() {
+function Inicio() {
     return (
         <div className="seccao-container">
-            <video src="/videos/video-um.mp4" autoPlay loop muted />
             <h1>OST Central</h1>
             <p>Selecione um franchise entre os apresentados abaixo</p>
             <div className="seccao-botoes">
@@ -21,4 +20,4 @@ function SeccaoUm() {
     )
 }
 
-export default SeccaoUm
+export default Inicio

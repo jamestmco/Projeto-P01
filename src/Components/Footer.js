@@ -56,7 +56,7 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to="/" class="social-logo">
-                            Tiago<i className="fab fa-typo3"/>
+                            OST Central<i className="fas fa-record-vinyl"/>
                         </Link>
                     </div>
                     <small className="website-icons">TIAGO @ 2020</small>

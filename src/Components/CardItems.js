@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function CardItems(props) {
     return (
         <>
-        <li className="card_item">
+        <ul className="card_item">
             <Link to={props.path} className="card_item_link">
                 <figure data-category={props.label} className="card_item_pic_wrap">
                     <img src={props.src} alt="imagem" className="card_item_img">                 
@@ -16,7 +16,7 @@ function CardItems(props) {
                     </h5>
                 </div>
             </Link>
-        </li>  
+        </ul>  
         </>
     )
 }
