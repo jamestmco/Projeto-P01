@@ -11,19 +11,19 @@ function CardsVG() {
                    <ul className="card_items">
                         <CardItems
                         src="imagens/Bury_the_Light_cover.jpg"
-                        text="Bury The Light"
+                        text="Placeholder Text"
                         label="DMC5SE"
                         path="/services"
                         />
                         <CardItems
                         src="imagens/Bloodborne_ost.jpg"
-                        text="Bloodborne OST"
+                        text="Placeholder Text"
                         label="Bloodborne"
                         path="/products"
                         />
                         <CardItems
                         src="imagens/Automata_ost.jpg"
-                        text="Nier Automata OST"
+                        text="Placeholder Text"
                         label="Nier Automata"
                         path="/sign-up"
                         />

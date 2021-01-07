@@ -11,19 +11,19 @@ function CardsM() {
                    <ul className="card_items">
                         <CardItems
                         src="imagens/FotR.jpg"
-                        text="Fellowship of the Ring"
+                        text="Placeholder Text"
                         label="Fellowship of the Ring"
                         path="/services"
                         />
                         <CardItems
                         src="imagens/Ttt.jpg"
-                        text="The Two Towers"
+                        text="Placeholder Text"
                         label="The Two Towers"
                         path="/products"
                         />
                         <CardItems
                         src="imagens/TRotK.jpg"
-                        text="Return of the King"
+                        text="Placeholder Text"
                         label="Return of the King"
                         path="/sign-up"
                         />
