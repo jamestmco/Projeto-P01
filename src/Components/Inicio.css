@@ -1,4 +1,4 @@
-.seccao-container{
+.seccao-container-inicio{
     background: url("../imagens/DMC5.png") center center/cover no-repeat;
     background-attachment: fixed; /*Parallax scroll effect*/
     padding-top: 100px;
@@ -11,7 +11,20 @@
     justify-content: center;
 }
 
-.seccao-container > h1 {
+.seccao-container-midpage{
+    background: url("../imagens/LotR.jpg") center center/cover no-repeat;
+    background-attachment: fixed; /*Parallax scroll effect*/
+    padding-top: 100px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0px 0px 500px rgba(0,0,0,100);
+    object-fit: contain;
+    justify-content: center;
+}
+
+.seccao-container-inicio > h1 {
     color: #ffffff;
     font-family: Helvetica;
     font-size: 70px;
@@ -19,7 +32,22 @@
     text-shadow: 0 0 15px #000000;
 }
 
-.seccao-container > p {
+.seccao-container-inicio > p {
+    margin-top: 8px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 32px;
+    text-shadow: 0 0 15px #000000;
+}
+
+.seccao-container-midpage > h1 {
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 70px;
+    text-shadow: 0 0 15px #000000;
+}
+
+.seccao-container-midpage > p {
     margin-top: 8px;
     color: #ffffff;
     font-family: Helvetica;
@@ -36,7 +64,13 @@
 }
 
 @media screen and (max-width: 900px){
-    .seccao-container > h1 {
+    .seccao-container-inicio > h1 {
+        font-family: Helvetica;
+        font-size: 60px;
+        margin-top: -150px;
+    }
+
+    .seccao-container-midpage > h1 {
         font-family: Helvetica;
         font-size: 60px;
         margin-top: -150px;
@@ -44,13 +78,25 @@
 }
 
 @media screen and (max-width: 768px){
-    .seccao-container > h1 {
+    .seccao-container-inicio > h1 {
         font-family: Helvetica;
         font-size: 50px;
         margin-top: -100px;
     }
 
-    .seccao-container > p {
+    .seccao-container-inicio > p {
+        font-family: Helvetica;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .seccao-container-midpage > h1 {
+        font-family: Helvetica;
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .seccao-container-midpage > p {
         font-family: Helvetica;
         font-size: 40px;
         text-align: center;
@@ -65,3 +111,4 @@
         text-decoration: none;
     }
 }
+

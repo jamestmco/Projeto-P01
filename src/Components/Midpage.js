@@ -3,11 +3,11 @@ import {Button} from "./Button"
 import "./Inicio.css"
 import "../App.css"
 
-function Inicio() {
+function Midpage() {
     return (
-        <div className="seccao-container-inicio">
+        <div className="seccao-container-midpage">
             <h1>OST Central</h1>
-            <p>Selecione um franchise entre os apresentados abaixo</p>
+            <p>Filmes</p>
             <div className="seccao-botoes">
                 <Button className="botoes" buttonStyle="btn--outline" buttonSize="btn--large" href="Cards">
                     Soundtracks
@@ -17,4 +17,4 @@ function Inicio() {
     )
 }
 
-export default Inicio
+export default Midpage
