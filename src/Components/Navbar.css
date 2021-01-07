@@ -95,7 +95,7 @@
   }
 
   .nav-menu.active {
-    background: #462d40;
+    background: #80b1ce;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -108,7 +108,7 @@
 
   .nav-links:hover {
     background-color: #f0f0f0;
-    color: #331e2e;
+    color: #719fb9;
   }
 
   .navbar-logo {
@@ -131,7 +131,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: #ffffff;
   }
 
   .nav-links-mobile {
@@ -147,7 +147,7 @@
 
   .nav-links-mobile:hover {
     background: #ffffff;
-    color: #462b3f;
+    color: #719fb9;
     transition: 500ms;
   }
 
