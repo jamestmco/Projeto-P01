@@ -1,7 +1,7 @@
 .cards {
   padding: 75px;  
-  /*background: #f7f7f7;*/
-  background:  #577181;
+  /*background:  #577181;*/
+  background: linear-gradient(to right, #ffffff 0, #b5cfe2 33%, #6693ad 66%, #683268 100%);
   }
   
   h1 {
