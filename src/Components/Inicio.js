@@ -1,7 +1,8 @@
 import React from 'react'
-import {Button} from "./Button"
+//import {Button} from "./Button"
 import "./Inicio.css"
 import "../App.css"
+import "./Button.css"
 
 function Inicio() {
     return (
@@ -9,9 +10,10 @@ function Inicio() {
             <h1>OST Central</h1>
             <p>Selecione um franchise entre os apresentados abaixo</p>
             <div className="seccao-botoes">
-                <Button className="botoes" buttonStyle="btn--outline" buttonSize="btn--large" href="Cards">
+                {/*<Button className="botoes" buttonStyle="btn--outline" buttonSize="btn--large" href="Cards">
                     Soundtracks
-                </Button>
+                </Button>*/}
+                <button className="btn-page" href="Cards">Soundtracks</button>
             </div>
         </div>
     )

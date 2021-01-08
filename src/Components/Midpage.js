@@ -1,7 +1,7 @@
 import React from 'react'
-import {Button} from "./Button"
 import "./Inicio.css"
 import "../App.css"
+import "./Button.css"
 
 function Midpage() {
     return (
@@ -9,9 +9,7 @@ function Midpage() {
             <h1>OST Central</h1>
             <p>Filmes</p>
             <div className="seccao-botoes">
-                <Button className="botoes" buttonStyle="btn--outline" buttonSize="btn--large" href="Cards">
-                    Soundtracks
-                </Button>
+                <button className="btn-page" href="Midpage">Soundtracks</button>
             </div>
         </div>
     )

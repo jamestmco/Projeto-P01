@@ -1,13 +1,15 @@
 .cards {
   padding: 75px;  
-  background: #f7f7f7;
+  /*background: #f7f7f7;*/
+  background:  #577181;
   }
   
   h1 {
     font-family: Helvetica;
     font-size: 40px;
     text-align: center;
-    color: #3d3d3d;
+    color: #ffffff;
+    text-shadow: 0 0 7px #444444;
   }
   
   .card_container {
@@ -45,6 +47,8 @@
     overflow: hidden;
     border-radius: 10px;
     text-decoration: none;
+    border: solid 5px #f7fdff;
+
   }
 
   /*
