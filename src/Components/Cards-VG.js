@@ -4,7 +4,7 @@ import "./Cards.css"
 
 function CardsVG() {
     return (
-        <div className="cards">
+        <div className="cards" id="Cards-VG">
             <h1>Original Soundtracks</h1>
             <div className="card_container">
                 <div className="card_wrapper">
@@ -13,19 +13,19 @@ function CardsVG() {
                         src="imagens/Bury_the_Light_cover.jpg"
                         text="Placeholder Text"
                         label="DMC5SE"
-                        path="/services"
+                        path="/"
                         />
                         <CardItems
                         src="imagens/Bloodborne_ost.jpg"
                         text="Placeholder Text"
                         label="Bloodborne"
-                        path="/products"
+                        path="/"
                         />
                         <CardItems
                         src="imagens/Automata_ost.jpg"
                         text="Placeholder Text"
                         label="Nier Automata"
-                        path="/sign-up"
+                        path="/"
                         />
                    </ul>
                 </div>

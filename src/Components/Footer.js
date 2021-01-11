@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className="footer-container">
+        <div className="footer-container" id="footer">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">     
                     Junta-te à junção das junções
@@ -25,29 +25,29 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Primeiro</h2>
-                        <Link to="/products">Um</Link>
-                        <Link to="/services">Dois</Link>
-                        <Link to="/signup">Três</Link>
+                        <Link to="/">Um</Link>
+                        <Link to="/">Dois</Link>
+                        <Link to="/">Três</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Segundo</h2>
-                        <Link to="/products">Uno</Link>
-                        <Link to="/services">Dos</Link>
-                        <Link to="/signup">Tres</Link>
+                        <Link to="/">Uno</Link>
+                        <Link to="/">Dos</Link>
+                        <Link to="/">Tres</Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Terceiro</h2>
-                        <Link to="/products">Un</Link>
-                        <Link to="/services">Deux</Link>
-                        <Link to="/signup">Troix</Link>
+                        <Link to="/">Un</Link>
+                        <Link to="/">Deux</Link>
+                        <Link to="/">Troix</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Quarto</h2>
-                        <Link to="/products">One</Link>
-                        <Link to="/services">Two</Link>
-                        <Link to="/signup">Three</Link>
+                        <Link to="/">One</Link>
+                        <Link to="/">Two</Link>
+                        <Link to="/">Three</Link>
                     </div>
                 </div>
             </div>

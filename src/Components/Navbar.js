@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+import { HashLink as Link } from "react-router-hash-link";
 import './Navbar.css';
 import "./Button.css";
 
@@ -29,7 +30,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <div className="nav-logo">
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link smooth to='#home' className='navbar-logo' onClick={closeMobileMenu}>
             OST Central
             <i class='fas fa-record-vinyl' />
           </Link>
@@ -39,40 +40,33 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+              <Link smooth to='#Cards-VG' className='nav-links' onClick={closeMobileMenu}>
+                Games OST
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Services
+              <Link smooth to='#Cards-M' className='nav-links' onClick={closeMobileMenu}>
+                Movies OST
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
+              <Link smooth to='#footer' className='nav-links' onClick={closeMobileMenu}>
+                Contacts
               </Link>
             </li>
 
-            <li>
+            {/*<li>
               <Link
-                to='/sign-up'
+                to='/'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Sign Up
               </Link>
-            </li>
+            </li>*/}
+
           </ul>
-          <button className="btn-nav">SIGN UP</button>
+          {/*<button className="btn-nav">SIGN UP</button>*/}
         </div>
       </nav>
     </>

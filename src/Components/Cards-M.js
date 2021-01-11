@@ -4,7 +4,7 @@ import "./Cards.css"
 
 function CardsM() {
     return (
-        <div className="cards">
+        <div className="cards" id="Cards-M">
             <h1>Movie Soundtracks</h1>
             <div className="card_container">
                 <div className="card_wrapper">
@@ -13,19 +13,19 @@ function CardsM() {
                         src="imagens/FotR.jpg"
                         text="Placeholder Text"
                         label="Fellowship of the Ring"
-                        path="/services"
+                        path="/"
                         />
                         <CardItems
                         src="imagens/Ttt.jpg"
                         text="Placeholder Text"
                         label="The Two Towers"
-                        path="/products"
+                        path="/"
                         />
                         <CardItems
                         src="imagens/TRotK.jpg"
                         text="Placeholder Text"
                         label="Return of the King"
-                        path="/sign-up"
+                        path="/"
                         />
                    </ul>
                 </div>
