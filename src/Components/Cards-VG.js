@@ -5,7 +5,7 @@ import "./Cards.css"
 function CardsVG() {
     return (
         <div className="cards" id="Cards-VG">
-            <h1>Original Soundtracks</h1>
+            <h1>Game Soundtracks</h1>
             <div className="card_container">
                 <div className="card_wrapper">
                    <ul className="card_items">
