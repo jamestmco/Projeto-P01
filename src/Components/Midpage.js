@@ -2,7 +2,7 @@ import React from 'react'
 import "./Inicio.css"
 import "../App.css"
 import "./Button.css"
-import {Link} from "react-router-dom"
+import {HashLink as Link} from "react-router-hash-link"
 
 function Midpage() {
     return (
@@ -10,7 +10,7 @@ function Midpage() {
             <h1>OST Central</h1>
             <p>Filmes</p>
             <div className="seccao-botoes">
-            <Link to='Cards-M'><button className="btn-page">Movies OST</button></Link>
+            <Link smooth to='#Cards-M'><button className="btn-page">Movies OST</button></Link>
             </div>
         </div>
     )
