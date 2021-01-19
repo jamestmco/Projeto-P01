@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import CardItems from './CardItems'
 import "./Cards.css"
+import {Modal} from "./Modal"
 
 function CardsVG() {
+
+const [showModal, setShowModal] = useState(false);
+
+const openModal = () => {setShowModal(prev => !prev);}
+
     return (
         <div className="cards" id="Cards-VG">
             <h1>Game Soundtracks</h1>
@@ -28,6 +34,10 @@ function CardsVG() {
                         path="/"
                         />
                    </ul>
+
+                   <button onClick={openModal}>Clicar aqui</button>
+                    <Modal showModal={showModal} setShowModal={setShowModal}/>
+
                 </div>
             </div>   
         </div>
